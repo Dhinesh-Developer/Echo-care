@@ -1,0 +1,12 @@
+.streamlit/secrets.toml
+echocare.db
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.env
+.streamlit/secrets.toml.example
+# Local API credentials; keep the safe example template versioned.
+**/secrets.toml
+**/secrets.*
+!**/secrets.toml.example

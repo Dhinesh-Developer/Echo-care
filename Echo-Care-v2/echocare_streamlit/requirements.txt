@@ -1,0 +1,18 @@
+# Every version below was actually installed and exercised (imports, page renders, PDF
+# generation, plotly charts, pytest suite) in the environment this project was built and
+# tested in. If you must change a version, re-run `pytest tests/ -v` afterwards.
+streamlit==1.40.1
+google-genai==2.25.0
+tavily-python==0.8.4
+scikit-learn==1.8.0
+pandas==2.3.3
+numpy==2.4.4
+joblib==1.5.3
+Pillow==10.4.0
+PyMuPDF==1.28.2
+pytesseract==0.3.13
+plotly==7.1.0
+bcrypt==4.0.1
+reportlab==4.4.10
+openpyxl==3.1.5
+qrcode[pil]==8.2
